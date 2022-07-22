@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mainpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Comfortaa:wght@300&family=Merienda:wght@400;700&display=swap" rel="stylesheet"> 
+    <title>header</title>
+    <style>
+       *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: 'Assistant', sans-serif;
+            /* font-family: 'Comfortaa', cursive; */
+
+            /* font-family: 'Merienda', cursive; */
+        }
+        header{
+            background-color: #F6EBF4;
+            padding: 1em;
+        }
+        header nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between; 
+        }
+        header nav ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; 
+            list-style: none;
+        }
+        header nav ul a{
+            text-decoration: none;
+            color: #482673;
+            margin-left: 3em;
+            font-size: 18px;
+            font-weight: bolder;
+        }
+        .button button{
+            border: none;
+            font-size: 18px;
+            margin-left: 1em;
+        }
+        .button .signup{
+            padding: 0.4em 1em;
+            font-weight: bolder;
+            color: white;
+            border-radius: 20px;
+            font-size: 18px;
+            font-weight: bolder;
+        }
+    </style>
+</head> 
+<body>
+    <header>
+        <nav>
+            <i><h2 style="font-family: 'Macondo', sans-serif; font-weight: bold; margin-right: 2em; color: #482673;border-bottom: 3px solid #482673;">THE SHOES</h2></i>
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Contact</a></li>
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Blog</a></li>
+               <li><a href="#">Gallary</a></li>
+            </ul>
+            <div class="button">
+                <a href="#"><button class="signin" style="background-color:#F6EBF4; color:#482673 ;">Sign in</button></a>
+                <a href="#"><button class="signup" style="background-color: #482673;"> Sign up</button></a>
+            </div>
+        </nav>
+     
+    </header>
+</body>
+</html>
